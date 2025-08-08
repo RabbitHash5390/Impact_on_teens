@@ -126,10 +126,9 @@ Social Media Addiction Survey
 Suicide Rates by Year & Platform Usage
 
 
-
 Tools Used
 Python (Pandas, Seaborn, Matplotlib)
 
-
 Jupyter Notebook
+by Peggy Nienaber
 
