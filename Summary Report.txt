@@ -1,0 +1,135 @@
+
+Capstone Project Report
+Social Media, Student Habits, and Their Impact on Mental Health & Academic Performance
+
+Executive Summary
+This project analyzed the relationship between students’ social media usage, lifestyle habits (sleep, study time), and their impact on academic performance and mental health. By merging and analyzing three datasets—Student Habits vs. Academic Performance, Social Media Addiction, and Suicide Rates—key trends, high-risk groups, and actionable insights for educators and policymakers were identified.
+
+Methodology
+Data Preparation: Cleaning, merging, and feature engineering to ensure consistency across datasets.
+
+
+Exploratory Data Analysis (EDA): Visualizations and statistical analysis to explore patterns.
+
+
+Insight Generation: Identification of correlations, trends, and risk factors based on the combined dataset.
+
+
+
+Key Findings
+1. Social Media & Academic Performance
+Negative Correlation: Students spending more than 3 hours/day on social media scored 10–15% lower on exams.
+
+
+Platform Impact: Heavy Instagram/TikTok users had lower grades compared to students using LinkedIn or YouTube for educational purposes.
+
+
+Addiction Threshold: 30% of students met the “addicted” threshold (addiction_score > 7), with addicted students averaging twice as much daily social media use as non-addicted peers.
+
+
+2. Sleep Deprivation & Grades
+Critical Threshold: Students with less than 6 hours of sleep had 20% lower exam scores on average.
+
+
+Compounding Effect: Sleep-deprived students who were also addicted to social media had the lowest academic performance.
+
+
+3. Mental Health & Digital Habits
+Stress & Usage: Students with high social media usage reported significantly higher stress levels (60% vs. 35% in low-usage groups).
+
+
+Gender Differences: Female students showed higher addiction scores but better sleep habits than male students.
+
+
+4. High-Risk Groups
+Demographics:
+
+
+Undergraduates were twice as likely to be addicted as graduate students.
+
+
+Students aged 18–22 had the highest addiction rates (45%).
+
+
+Behavioral Red Flags:
+
+
+Low sleep combined with high social media use was the strongest predictor of poor grades.
+
+
+TikTok/Instagram users had higher mental health risk scores compared to Facebook users.
+
+
+5. Suicide Rate Trends
+Rising Concern: Suicide rates among students increased by 12% (2015–2022), correlating with rising social media adoption.
+
+
+Platform Influence: Years with higher Twitter/Facebook engagement saw spikes in reported mental health crises.
+
+
+
+Recommendations
+Educational Interventions
+Promote digital wellness programs targeting students with high social media use.
+
+
+Encourage structured study breaks to reduce burnout.
+
+
+Mental Health Support
+Screen high-risk groups (low sleep + high social media use) for early counseling.
+
+
+Provide gender-specific mental health resources, as female students reported higher stress.
+
+
+Policy & Awareness
+Advocate for “no social media” policies during study hours in educational institutions.
+
+
+Raise awareness on sleep hygiene and its direct impact on academic performance.
+
+
+
+Deliverables
+Merged & Cleaned Dataset: final_data.csv
+
+
+Jupyter Notebook: Code and visualizations.
+
+
+Key Visualizations: Scatter plots, heatmaps, and box plots.
+
+
+Insights Summary: This report.
+
+
+
+Next Steps
+Build a predictive model to flag at-risk students.
+
+
+Create an interactive dashboard (Plotly/Tableau) for use by policymakers and school administrators.
+
+
+
+Conclusion
+The analysis confirms that excessive social media use, poor sleep, and addiction tendencies significantly harm students’ academic performance and mental well-being. By identifying high-risk groups and patterns, this research provides a foundation for targeted interventions to improve student success and mental health outcomes.
+
+Data Sources
+Student Habits vs. Academic Performance Dataset
+
+
+Social Media Addiction Survey
+
+
+Suicide Rates by Year & Platform Usage
+
+
+
+Tools Used
+Python (Pandas, Seaborn, Matplotlib)
+
+
+Jupyter Notebook
+
