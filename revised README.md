@@ -50,10 +50,49 @@ Capstone Project: Social Media, Student Habits, and Their Impact on Mental Healt
 
 This project uses a unified dataset derived from the following Kaggle source:
 
-- **Student Habits vs Academic Performance**  
+- Student Habits vs Academic Performance
   - Author: jayaantanaath  
   - Kaggle URL: [https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance](https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance)  
   - Accessed via: `kagglehub.dataset_download("jayaantanaath/student-habits-vs-academic-performance")`
+   Also uses # Install dependencies as needed:
+# pip install kagglehub[pandas-datasets]
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+# Set the path to the file you'd like to load
+file_path = ""
+
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "adilshamim8/social-media-addiction-vs-relationships",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)# Install dependencies as needed:
+# pip install kagglehub[pandas-datasets]
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+# Set the path to the file you'd like to load
+file_path = ""
+
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "abdullahashfaqvirk/student-mental-health-survey",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)
+
+print("First 5 records:", df.head())
+
+print("First 5 records:", df.head())
 
 > This dataset was cleaned and transformed using Python (pandas) in a Jupyter Notebook environment.*
 
